@@ -1,194 +1,180 @@
-
 /* font family */
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-a{
+a {
     text-decoration: none;
 }
-ul li{
+ul li {
     list-style: none;
 }
 
-.container{
+.container {
     max-width: 1300px;
     width: 100%;
     margin: 0 auto;
 }
 
 /* **************Topbar Section**************** */
-.topbar{
-
+.topbar {
     background-color: #eeeeee;
     padding: 15px 0px;
 }
-.topbar .topbar-parrents{
+.topbar .topbar-parrents {
     display: flex;
     justify-content: space-between;
     font-size: 16px;
     font-weight: 400;
-
-    
 }
 .topbar .topbar-parrents .icon ul {
     list-style: none;
     display: flex;
 }
-.topbar .topbar-parrents .icon ul li{
+.topbar .topbar-parrents .icon ul li {
     margin-left: 20px;
-    
 }
-.topbar .topbar-parrents .icon ul li a{
+.topbar .topbar-parrents .icon ul li a {
     text-decoration: none;
     color: black;
-   
 }
-.topbar .topbar-parrents .icon ul li a:hover{
+.topbar .topbar-parrents .icon ul li a:hover {
     color: red;
-    transition: .4s;
+    transition: 0.4s;
 }
-
 
 /* ***************header section****************** */
 
-.header .header-parrents{
+.header .header-parrents {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 0px;
-    
 }
-.header .header-parrents .name h2{
+.header .header-parrents .name h2 {
     font-size: 24px;
     font-weight: 900;
 }
-.header .header-parrents .name p{
+.header .header-parrents .name p {
     font-size: 18px;
     font-weight: 400;
 }
-.header .header-parrents .header-contact .number{
+.header .header-parrents .header-contact .number {
     font-size: 24px;
     font-weight: 900;
-    
-}  
-.header .header-parrents .header-contact .mail{
+}
+.header .header-parrents .header-contact .mail {
     font-size: 18px;
     font-weight: 400px;
-    
 }
-.header .header-parrents .header-contact ul li a{
+.header .header-parrents .header-contact ul li a {
     color: black;
 }
-.header .header-parrents .header-contact ul li a:hover{
+.header .header-parrents .header-contact ul li a:hover {
     color: red;
     transition: 0.4s;
 }
 /*********************** navbar section***************** */
-.navbar{
- 
+.navbar {
     background: black;
 }
-.navbar .navbar-parrents ul{
+.navbar .navbar-parrents ul {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.navbar .navbar-parrents ul li a{
+.navbar .navbar-parrents ul li a {
     padding: 40px 33px;
-  color: #FFF;
-  font-size: 16px;
-  font-weight: 600;
-  display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-block;
 }
-.navbar .navbar-parrents ul li a:hover{
+.navbar .navbar-parrents ul li a:hover {
     background-color: red;
-    transition: .4s;
-    
+    transition: 0.4s;
 }
-.active{
+.active {
     background: red;
-  }
+}
 
-  /* **************************banner Section********************** */
-  .banner{
+/* **************************banner Section********************** */
+.banner {
     background: url(../img/bannar.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 650px;
-   
-  }
-  .banner .banner-parrents{
+}
+.banner .banner-parrents {
     padding: 245px 0;
-  }
-  .banner .banner-parrents .content {
+}
+.banner .banner-parrents .content {
     text-align: center;
     background-color: black;
     color: white;
-    
-    opacity: .8;
+
+    opacity: 0.8;
     display: inline-block;
     padding: 34px 26px;
     margin: 0 auto;
     position: relative;
     left: 267px;
 }
- .banner .banner-parrents .content h1{
+.banner .banner-parrents .content h1 {
     font-size: 42px;
     font-weight: 900;
- }
- .banner .banner-parrents .content p{
+}
+.banner .banner-parrents .content p {
     font-size: 32px;
     font-weight: 500;
- }
- .banner .dot-cercle{
+}
+.banner .dot-cercle {
     display: flex;
     justify-content: center;
-    
- }
- .banner .dot-cercle .dot {
+}
+.banner .dot-cercle .dot {
     height: 13px;
     width: 13px;
     margin-left: 15px;
-    color: #FFF;
+    color: #fff;
     border-radius: 50%;
     border: 2px solid rgb(255, 255, 255);
     position: relative;
     bottom: 55px;
 }
- .banner .dot-cercle .dot:hover{
+.banner .dot-cercle .dot:hover {
     background-color: red;
     border: 2px solid red;
- }
+}
 /********************In House Section************************* */
-.in-house{
+.in-house {
     padding-top: 80px;
     padding-bottom: 80px;
 }
-.in-house .in-house-parrents{
+.in-house .in-house-parrents {
     display: flex;
     justify-content: space-between;
 }
-.in-house .in-house-parrents .inhouse-content{
+.in-house .in-house-parrents .inhouse-content {
     position: relative;
 }
-.in-house .in-house-parrents .inhouse-content::after{
+.in-house .in-house-parrents .inhouse-content::after {
     content: "";
-  position: absolute;
-  height: 100%;
-  width: 100%;
+    position: absolute;
+    height: 100%;
+    width: 100%;
     background: url(../img/nlg-logo.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 375px;
-    opacity: .2;
-   bottom: 28px;
-   right: 22px;
+    opacity: 0.2;
+    bottom: 28px;
+    right: 22px;
 }
-.in-house .in-house-parrents .inhouse-content h2{
+.in-house .in-house-parrents .inhouse-content h2 {
     font-size: 36px;
     font-weight: 900;
 }
@@ -204,7 +190,7 @@ ul li{
     position: relative;
     top: 20px;
 }
-.in-house .in-house-parrents .inhouse-content .learn-btn{
+.in-house .in-house-parrents .inhouse-content .learn-btn {
     padding-top: 35px;
 }
 .in-house .in-house-parrents .inhouse-content .learn-btn a {
@@ -215,25 +201,24 @@ ul li{
     position: relative;
     top: 75px;
     font-weight: 700;
-
 }
-.in-house .in-house-parrents .inhouse-content .learn-btn a:hover{
+.in-house .in-house-parrents .inhouse-content .learn-btn a:hover {
     color: white;
     background-color: red;
     border: 2px solid red;
-    transition: .4s;
+    transition: 0.4s;
 }
 /* *********************card section********************* */
-.card{
-    background: #EEEEEE;
+.card {
+    background: #eeeeee;
     padding: 75px 0;
     text-align: center;
 }
-.card .card-parrents .card-content h1{
+.card .card-parrents .card-content h1 {
     font-size: 36px;
     font-weight: 900;
 }
-.card .card-parrents .card-content p{
+.card .card-parrents .card-content p {
     font-size: 16px;
     font-weight: 500;
     padding: 50px;
@@ -250,98 +235,95 @@ ul li{
 }
 
 .card-item {
-   
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 40px;
     row-gap: 40px;
     justify-content: center;
-    
 }
 .card-item .card-1 {
-    background: #FFF;
+    background: #fff;
     border: 10px solid white;
     padding: 25px 0;
     border-radius: 5px;
 }
-.card-item .card-1:hover{
+.card-item .card-1:hover {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     transition: 0.4s;
 }
 .card-item .card-2 {
-    background: #FFF;
+    background: #fff;
     border: 10px solid white;
     padding: 25px 0;
     border-radius: 5px;
 }
-.card-item .card-2:hover{
+.card-item .card-2:hover {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     transition: 0.4s;
 }
 .card-item .card-3 {
-    background: #FFF;
+    background: #fff;
     border: 10px solid white;
     padding: 25px 0;
     border-radius: 5px;
 }
-.card-item .card-3:hover{
+.card-item .card-3:hover {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     transition: 0.4s;
 }
 .card-item .card-4 {
-    background: #FFF;
+    background: #fff;
     border: 10px solid white;
     padding: 25px 0;
     border-radius: 5px;
 }
-.card-item .card-4:hover{
+.card-item .card-4:hover {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     transition: 0.4s;
 }
 .card-item .card-5 {
-    background: #FFF;
+    background: #fff;
     border: 10px solid white;
     padding: 25px 0;
     border-radius: 5px;
 }
-.card-item .card-5:hover{
+.card-item .card-5:hover {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     transition: 0.4s;
 }
 .card-item .card-6 {
-    background: #FFF;
+    background: #fff;
     border: 10px solid white;
     padding: 25px 0;
     border-radius: 5px;
 }
-.card-item .card-6:hover{
+.card-item .card-6:hover {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     transition: 0.4s;
 }
 
-.card-btn{
-    padding: 25px 0 ;
-    
+.card-btn {
+    padding: 25px 0;
 }
-.card-btn a{
+.card-btn a {
     border: 2px solid black;
     padding: 13px 25px;
     font-size: 18px;
     color: black;
     font-weight: 700;
 }
-.card-btn a:hover{
+.card-btn a:hover {
     color: white;
     background-color: red;
     border: 2px solid red;
-    transition: .4s;
+    transition: 0.4s;
 }
 /********************legal Section************************ */
-.legal{
+.legal {
     padding-top: 75px;
     padding-bottom: 25px;
 }
-.legal .legal-parrents .content{
+.legal .legal-parrents .content {
     text-align: center;
 }
 .legal .legal-parrents .content .line {
@@ -352,22 +334,21 @@ ul li{
     bottom: 70px;
     left: 615px;
 }
-.legal .legal-parrents .content h2{
+.legal .legal-parrents .content h2 {
     font-size: 36px;
     font-weight: 900;
     padding-bottom: 50px;
 }
-.legal .legal-parrents .content p{
+.legal .legal-parrents .content p {
     font-size: 16px;
     font-weight: 500;
-    
 }
 
 .legal .legal-parrents .explain {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 20px;
-  padding: 45px 0px;
+    padding: 45px 0px;
 }
 .legal .legal-parrents .explain video {
     height: 260px;
@@ -375,7 +356,7 @@ ul li{
 }
 
 /* ***************Contact Section***************** */
-.contact{
+.contact {
     padding: 0;
     background: url(../img/contact.jpg);
     background-position: center;
@@ -383,16 +364,16 @@ ul li{
     background-size: cover;
     height: 400px;
 }
-.contact .contact-parrents{
+.contact .contact-parrents {
     text-align: center;
     padding: 115px 0;
     color: white;
 }
-.contact .contact-parrents h1{
+.contact .contact-parrents h1 {
     font-size: 48px;
     font-weight: 900;
 }
-.contact .contact-parrents p{
+.contact .contact-parrents p {
     font-size: 26px;
     font-weight: 500;
     padding-top: 15px;
@@ -405,26 +386,25 @@ ul li{
     color: white;
     font-weight: 700;
 }
-.contact .contact-parrents .contact-btn a:hover{
+.contact .contact-parrents .contact-btn a:hover {
     color: black;
     background-color: red;
     border: 2px solid red;
     font-weight: 700;
-    transition: .4s;
+    transition: 0.4s;
 }
 /**************************Blog Section******************  */
-.blog{
+.blog {
     padding-top: 70px;
     padding-bottom: 110px;
-    background: #EEEEEE;
-    
+    background: #eeeeee;
 }
-.blog .blog-parrents .header-text h3{
+.blog .blog-parrents .header-text h3 {
     font-size: 36px;
     font-weight: 900;
     text-align: center;
 }
-.blog .blog-parrents .line{
+.blog .blog-parrents .line {
     height: 5px;
     width: 80px;
     background-color: red;
@@ -432,7 +412,7 @@ ul li{
     bottom: -3px;
     left: 615px;
 }
-.blog .blog-parrents .blog-item{
+.blog .blog-parrents .blog-item {
     padding-top: 75px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -442,139 +422,126 @@ ul li{
     display: flex;
     padding: 15px 0px;
 }
-.blog .blog-parrents .blog-item .july-blog ul li{
+.blog .blog-parrents .blog-item .july-blog ul li {
     margin-right: 45px;
-   
-    
 }
-.blog .blog-parrents .blog-item .july-blog ul li a{
+.blog .blog-parrents .blog-item .july-blog ul li a {
     font-size: 16px;
-    color: #585858
+    color: #585858;
 }
-.blog .blog-parrents .blog-item .july-blog ul li a:hover{
+.blog .blog-parrents .blog-item .july-blog ul li a:hover {
     color: red;
 }
 .blog .blog-parrents .blog-item .july-blog .blog-btn {
     padding-top: 25px;
 }
-.blog .blog-parrents .blog-item .july-blog .blog-btn a{
+.blog .blog-parrents .blog-item .july-blog .blog-btn a {
     border: 2px solid black;
     padding: 17px 25px;
     font-size: 18px;
     color: black;
     font-weight: 700;
-    
 }
-.blog .blog-parrents .blog-item .july-blog .blog-btn a:hover{
+.blog .blog-parrents .blog-item .july-blog .blog-btn a:hover {
     color: white;
     background-color: red;
     border: 2px solid red;
-    transition: .4s;
+    transition: 0.4s;
 }
-
-
-
 
 .blog .blog-parrents .blog-item .may-blog ul {
     display: flex;
     padding: 15px 0px;
 }
-.blog .blog-parrents .blog-item .may-blog ul li{
+.blog .blog-parrents .blog-item .may-blog ul li {
     margin-right: 45px;
-   
-    
 }
-.blog .blog-parrents .blog-item .may-blog ul li a{
+.blog .blog-parrents .blog-item .may-blog ul li a {
     font-size: 16px;
-    color: #585858
+    color: #585858;
 }
-.blog .blog-parrents .blog-item .may-blog ul li a:hover{
+.blog .blog-parrents .blog-item .may-blog ul li a:hover {
     color: red;
 }
 .blog .blog-parrents .blog-item .may-blog .blog-btn {
     padding-top: 25px;
 }
-.blog .blog-parrents .blog-item .may-blog .blog-btn a{
+.blog .blog-parrents .blog-item .may-blog .blog-btn a {
     border: 2px solid black;
     padding: 17px 25px;
     font-size: 18px;
     color: black;
     font-weight: 700;
-    
 }
-.blog .blog-parrents .blog-item .may-blog .blog-btn a:hover{
+.blog .blog-parrents .blog-item .may-blog .blog-btn a:hover {
     color: white;
     background-color: red;
     border: 2px solid red;
-    transition: .4s;
+    transition: 0.4s;
 }
 /* *****************************Foter section************************ */
-.fotter{
-  padding: 70px 0;
-  background: #282628;
+.fotter {
+    padding: 70px 0;
+    background: #282628;
 }
-.fotter .fotter-parrents  h1{
-    color: #FFF;
+.fotter .fotter-parrents h1 {
+    color: #fff;
 }
-.fotter .fotter-parrents{
+.fotter .fotter-parrents {
     display: flex;
     justify-content: space-between;
 }
-.fotter .fotter-parrents .fotter-about p{
+.fotter .fotter-parrents .fotter-about p {
     color: #585858;
-  padding: 20px 0px;
-  
-    
+    padding: 20px 0px;
 }
-.fotter .fotter-parrents .fotter-about ul{
+.fotter .fotter-parrents .fotter-about ul {
     display: flex;
     justify-content: space-between;
     padding-top: 35px;
     padding-bottom: 35px;
 }
-.fotter .fotter-parrents .fotter-about ul li a{
+.fotter .fotter-parrents .fotter-about ul li a {
     color: #585858;
     border: 2px solid #9c9c9c;
-    padding: 10px 13px ;
+    padding: 10px 13px;
 }
-.fotter .fotter-parrents .fotter-about ul li a:hover{
+.fotter .fotter-parrents .fotter-about ul li a:hover {
     color: red;
     background-color: white;
     border: 2px solid white;
-    transition: .4s;
+    transition: 0.4s;
 }
 .fotter .fotter-parrents .fotter-link ul li {
     margin-top: 13px;
-  border-bottom: 1px dashed #757575;
-  padding: 9px 0;
+    border-bottom: 1px dashed #757575;
+    padding: 9px 0;
 }
 
-.fotter .fotter-parrents .fotter-link ul li a{
-    color: #585858; 
+.fotter .fotter-parrents .fotter-link ul li a {
+    color: #585858;
 }
-.fotter .fotter-parrents .fotter-link ul li a:hover{
-    color: white; 
+.fotter .fotter-parrents .fotter-link ul li a:hover {
+    color: white;
     transition: 0.4s;
 }
-.fotter .fotter-parrents .fotter-get-in-touch ul li{
+.fotter .fotter-parrents .fotter-get-in-touch ul li {
     padding: 30px 0px;
 }
-.fotter .fotter-parrents .fotter-get-in-touch ul li a{
+.fotter .fotter-parrents .fotter-get-in-touch ul li a {
     color: #585858;
     font-size: 16px;
     font-weight: 500;
-
 }
-.fotter .fotter-parrents .fotter-get-in-touch ul li a:hover{
+.fotter .fotter-parrents .fotter-get-in-touch ul li a:hover {
     color: white;
 }
 
 /* *****************************Copy Right Section*********************** */
-.copy-right{
+.copy-right {
     background: #141314;
-
 }
-.copy-right .copy-right-parrents{
+.copy-right .copy-right-parrents {
     color: white;
     font-size: 16px;
     font-weight: 500;
